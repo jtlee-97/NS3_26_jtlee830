@@ -1,4 +1,3 @@
-````markdown
 # NS3_26_jtlee830
 
 ## Overview
@@ -25,11 +24,11 @@ The implementation is written in **C++** and follows the internal architecture o
 ---
 
 ## Features
-- Customized LTE stack behavior
-- Internal event tracing for protocol debugging
-- Modular experimental architecture
-- Extendable simulation framework for future research
-- Designed for reproducible academic experimentation
+- Customized LTE stack behavior  
+- Internal event tracing for protocol debugging  
+- Modular experimental architecture  
+- Extendable simulation framework for future research  
+- Designed for reproducible academic experimentation  
 
 ---
 
@@ -46,18 +45,16 @@ https://scholar.google.com/citations?hl=ko&user=2fsB6gMAAAAJ
 
 ## Build Instructions
 ```bash
-# Example build flow
 cd ns-3.46.1
 ./ns3 configure
 ./ns3 build
-````
+```
 
 > Note: Additional configuration may be required depending on enabled modules and custom patches.
 
 ---
 
 ## Project Structure
-
 ```
 NS3_26_jtlee830/
 ├── src/                 # Modified ns-3 source modules
@@ -72,39 +69,19 @@ NS3_26_jtlee830/
 ## Release Notes
 
 ### Release 260220
-
-* Implemented **3GPP-based Conditional Handover (CHO)**
-* Added detailed event logging for handover procedure tracing
-* Integrated modified LTE handover algorithm framework
-* Improved simulation observability for protocol-level debugging
-
----
-
-*(Add future release notes below)*
-
-```
-### Release XXXX
-- (Write updates here)
-```
+- Implemented **3GPP-based Conditional Handover (CHO)**
+- Added detailed event logging for handover procedure tracing
+- Integrated modified LTE handover algorithm framework
+- Improved simulation observability for protocol-level debugging
 
 ---
 
-## License
-
-Specify your license here (e.g., MIT, GPLv2, custom academic license).
+### Release XXXXXX
+- (...doing...)
 
 ---
+
 
 ## Disclaimer
-
-This project is intended for **research and academic purposes**.
+This project is intended for **research and academic purposes**.  
 It is not an official ns-3 distribution and contains experimental modifications.
-
-```
-
----
-
-If you want, I can also generate:
-- a **research-focused README version** (paper-style description),
-- or a **developer-focused version** (API + module documentation).
-```
